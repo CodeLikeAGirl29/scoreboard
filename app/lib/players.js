@@ -2,10 +2,10 @@ export const STORAGE_KEY = "scoreboard:players";
 export const STORAGE_VERSION = 1;
 
 export const DEFAULT_PLAYERS = [
-  { name: "Lindsey", score: 0, id: 1 },
-  { name: "Jonathan", score: 0, id: 2 },
-  { name: "Bella", score: 0, id: 3 },
-  { name: "Bobo", score: 0, id: 4 },
+  { id: 1, name: "Maverick", score: 0 },
+  { id: 2, name: "Zara", score: 0 },
+  { id: 3, name: "Cleo", score: 0 },
+  { id: 4, name: "Finn", score: 0 },
 ];
 
 export function isValidPlayer(p) {
